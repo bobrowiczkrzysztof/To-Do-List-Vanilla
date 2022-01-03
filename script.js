@@ -8,9 +8,9 @@ addButton.addEventListener('click', function () {
   } else {
     tasks.innerHTML += `
     <div class="task">
-    <p>
-    <span>${input.value}</span> <button class="remove">Delete this</button>
-    </p>
+    
+    <span class="task-text">${input.value}</span> <i class="far fa-trash-alt remove"></i>
+   
     </div>`;
     input.value = '';
   }

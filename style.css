@@ -34,7 +34,7 @@ body {
   background: #fff;
   border: none;
   outline: none;
-  width: 60%;
+  width: 100%;
 }
 
 #addtask button {
@@ -44,4 +44,26 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.tasks {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-top: 1px solid #fff;
+  padding: 10px 0px;
+}
+
+i.remove {
+  cursor: pointer;
+}
+
+i.remove:hover {
+  color: yellow;
 }
