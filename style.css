@@ -47,6 +47,13 @@ body {
   border-radius: 5px;
 }
 
+button#push {
+  color: #f47340;
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding: 5px 15px;
+}
+
 .tasks {
   width: 100%;
   margin: 0 auto;
@@ -69,4 +76,14 @@ i.remove {
 
 i.remove:hover {
   color: yellow;
+}
+
+.task-text input {
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
+}
+
+.task-text input:focus {
+  outline: none;
 }
